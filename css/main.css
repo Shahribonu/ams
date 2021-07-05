@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact-us{
+    padding: 60px 0;
+
+}
+.forms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.forms .text{
+    padding: 0 30px 0 0;
+}
+.forms .text h2{
+   color: #000;
+   font-size: 35px;
+   font-weight: 800;
+}
+.forms .text p{
+    color: #000;
+    font-size: 20px;
+}
+.forms .inp,
+#subject,
+textarea{
+
+    border: 1px solid rgba(0,0,0,0.1);
+    width: 85%;
+    height: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 4px;
+    display: flex !important;
+}
+.forms .inp::placeholder{
+    color: #000;
+}
+.submit{
+    display: block;
+    width: 85%;
+    outline: none !important;
+    background-color: yellow;
+    color: rgb(22, 21, 21);
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+}
+textarea{
+    height: 200px;
+}
+
+.nice-select{
+    display: none;
+}
+.haveAproject .wantToWork-caption p {
+    font-size: 20px;
+}
+.haveAproject {
+    display: flex !important;
+    align-items: center;
+}
+.wantToWork-btn{
+    float: right !important;
+}
+.haveAproject .cent{
+    display: flex !important;
+    align-items: center;
+}
+.haveAproject .btn-ans{
+    background-color: #fff;
+    padding: 15px 30px;
+    color: #7b40c0 !important;
+    border: none;
+    border-radius: 5px;
+
+}
+.haveAproject .btn-ans:hover{
+    color: #000 !important;
+    
+}
+.wantToWork-caption{
+    padding-right: 40px;
+}
+
+.section-tittle.section-tittle3 span {
+    left: 0;
+    top: 0;
+}
+
+.slider-area .hero__img img {
+    max-width: 584px;
+    max-height: 607px;
+    overflow: hidden;
+    z-index: 1;
+}
+.header-transparrent {
+    z-index: 1000;
+}
+.header-btn {
+    background: #4043bc;
+    min-width: 120px;
+    position: relative;
+    border: none;
+}
+.main-header{
+    display: flex;
+    align-items: center !important;
+}
+.hero-btn {
+    background: #ff5c97;
+    padding: 15px 30px !important;
+}
+.single-slider{
+  overflow-x: hidden;
+
+}
+.slick-dots{
+    display: none !important;
+}
+.brand-area .slick-track{
+    width: 100% !important;
+}
